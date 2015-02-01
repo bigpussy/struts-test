@@ -34,7 +34,7 @@
     
     <package name="default" namespace="/" extends="struts-default">
 
-        <action name="hello">
+        <action name="hello" class="IndexAction1">
             <result>
                 /Hello.jsp
             </result>
